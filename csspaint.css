@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url('tree.jpg');
 
 }
 ol, ul {
@@ -46,4 +47,13 @@ table {
 #myCanvas {
 	margin-left: 400px;
 	margin-top: 200px;
+	background-color:white;
+
+}
+
+#bouton {
+	width: 50%;
+	min-height: 200px;
+	margin-top: 100px;
+margin-left: 510px;
 }

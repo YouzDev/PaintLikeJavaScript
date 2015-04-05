@@ -11,7 +11,7 @@
 <body>
 	<canvas id="myCanvas" width="1100" height="500" style="border:1px solid #000000;"></canvas>
 
-	<ul id="couleurs">
+<!-- 	<ul id="couleurs">
 		<li><a href="#" data-couleur="#000000" class="actif">Noir</a></li>
 		<li><a href="#" data-couleur="#ffffff">Blanc</a></li>
 		<li><a href="#" data-couleur="#ff0000">Rouge</a></li>
@@ -24,13 +24,19 @@
 		<li><a href="#" data-couleur="indigo">Indigo</a></li>
 		<li><a href="#" data-couleur="Violet">Violet</a></li>
 		<li><a href="#" data-couleur="pink">Rose</a></li>
-	</ul>
+	</ul> -->
+	<div id="bouton">
+	<button type="button" id="montre">Affichez le canvas </button>
 		<button type="button" id="trait">Trait </button>
-		<!-- <button type="button" id="crayon">Crayon </button> -->
+		<button type="button" id="crayon">Crayon </button> 
 		<button type="button" id="lol">Toile d'arraigne </button>
 		<button type="button" id="rectangle">Rectangle </button>
-		<input type="reset" id="reset" value="Reset la div" />
-
+		<button type="button" id="rectanglerempli">Rectangle rempli</button>
+		<button type="button" id="cercle">Cercle </button>
+		<button type="button" id="cerclerempli">Cercle rempli</button>
+		<input type="color" id="couleur"></input>
+		<input type="button" id="reset" value="Reset la div" />
+</div>
 
 </body>
 
