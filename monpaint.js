@@ -241,8 +241,8 @@ $(document).ready(function () {
     //  });
     // });
 
-
-    // Bouton Reset :
+    
+    // Bouton Reset qui va reset le canvas:
     $("#reset").click(function () {
         // Clear canvas :
         clear_canvas();
