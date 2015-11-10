@@ -39,9 +39,11 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
 }
 
 #myCanvas {
@@ -55,5 +57,6 @@ table {
 	width: 50%;
 	min-height: 200px;
 	margin-top: 100px;
-margin-left: 510px;
+	margin-left: 510px;
+
 }
